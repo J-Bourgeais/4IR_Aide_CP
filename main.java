@@ -1,17 +1,20 @@
 //main 
-/*
+/* Un menu : que voulez vous faire : 
+1. S'inscire
+2. ...
+et on appelle la fct correspondant
  * Créer des gens
- * "Vuez vus vus inscrire ?"
- * ui
- * nn
+ * "Voulez vous vous inscrire ?"
+ * oui
+ * non
  * 
  * SI ui
  * entrz nm, prénm, ...
  * 
  * Vus etes qui ?
  * 
- * ENtrez de tee u tee manière 
+ * ENtrez de telle ou telle manière 
  * 
- * n créé e mec
+ * on créé le mec
  * 
  */

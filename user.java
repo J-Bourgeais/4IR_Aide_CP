@@ -6,9 +6,6 @@ public class user {
     private String adresse;
     private int age;
 
-    // Si qqc est pas obligatoire
-    //public user() {
-    //}
 
     // Constructeur
     public user(String nom, String prenom, String email, String adresse, int age) {
@@ -17,6 +14,13 @@ public class user {
         this.email = email;
         this.adresse=adresse;
         this.age = age;
+    }
+
+    // Si qqc est pas obligatoire : pour structure
+    public user(String nom, String email, String adresse) {
+        this.nom = nom;
+        this.email = email;
+        this.adresse=adresse;
     }
 
     public String getNom() {
@@ -67,6 +71,9 @@ public class user {
         System.out.println("Âge: " + age);
         System.out.println("Adresse: " + adresse);
     }
+
+    //methode pour poster un avis ici ou dans avis ??
+
 
     
 }
